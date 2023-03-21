@@ -1,0 +1,18 @@
+/* Write your CSS here */
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 20px;
+  list-style: none;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.cross {
+  margin-left: auto;
+  font-size: 25px;
+}
+.text-container {
+  margin: 0px 15px;
+}
