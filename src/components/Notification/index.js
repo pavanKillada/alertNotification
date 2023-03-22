@@ -1,5 +1,4 @@
 // Write your code here
-import {GrFormClose} from 'react-icons/gr'
 import './index.css'
 
 const Notification = props => {
@@ -11,7 +10,7 @@ const Notification = props => {
         {children[1]}
         {children[2]}
       </div>
-      <GrFormClose className="cross" />
+      {children[3]}
     </li>
   )
 }
